@@ -1,0 +1,169 @@
+body {
+    background-color: #A2BFBD;
+}
+header {
+    margin: 10px 10px 10px 10px ;
+    box-shadow:0 5px 5px rgb(0, 7, 0);
+}
+
+
+
+#title {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 90px;
+    top: 60px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.logo {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+}
+img {
+    max-width: 30px;
+    opacity: 100%;
+    position: relative;
+    
+    bottom: 15px;
+    
+    
+
+    
+}
+li {
+    color: white;
+}
+.link1 {
+    position: relative;
+    left: 150px;
+bottom: 30px;
+text-decoration:none;
+font-weight: bolder;
+color: black;
+
+
+
+}
+:hover.link1 {
+    
+    transition: 1s;
+    background-color: black;
+    color:white
+}
+.container {
+    width: ;
+    height: 1600px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 5px 5px rgb(7, 7, 0);
+    padding:10px 10px 10px 10px;
+}
+.about {
+    color: rgb(5, 5, 5);
+}
+.box {
+    background-color: #425C5A;
+    text-align: center;
+    padding-bottom: 10PX;
+    border-radius: 5px;
+    color: white;
+}
+#skill1 {
+    min-width: 50px;
+    min-height: 200px;
+    background-color: #ffcea2;
+    padding: 5px 5px 5px 5px ;
+    margin: 30px 10px 10px 10px ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 5px 5px rgb(7, 7, 0);
+    
+}
+#skill2 {
+    min-width: 50px;
+    min-height: 200px;
+    background-color: #ffcea2;
+    padding: 5px 5px 5px 5px ;
+    margin: 30px 10px 10px 10px ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 5px 5px rgb(7, 7, 0);
+    
+}
+#skill3 {
+    min-width: 50px;
+    min-height: 200px;
+    background-color: #ffcea2;
+    padding: 5px 5px 5px 5px ;
+    margin: 30px 10px 10px 10px ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 5px 5px rgb(7, 7, 0);
+    
+}
+:hover#skill1 {
+    background-color: rgb(134, 173, 173);
+    transition:ease-in;
+    text-align: center;
+}
+:hover#skill2 {
+    background-color: rgb(134, 173, 173);
+    transition:ease-in;
+    text-align: center;
+}
+:hover#skill3 {
+    background-color: rgb(134, 173, 173);
+    transition:ease-in;
+    text-align: center;
+}
+#back {
+    position: relative;
+    margin-top: 70px;
+    text-align: end;
+
+
+}
+footer {
+    color: white;
+    background-color: black;
+    height: 50px;
+    text-align:center;
+    padding-top: 10px;
+}
+@media (min-width: 765px) {
+    .container {
+        height: 600px;
+    }
+    #skill1 {
+        width: 450px;
+        float: left;
+        position: relative;
+    }
+    #skill2 {
+        width: 450px;
+        float: left;
+        position: relative;
+    }
+    #skill3{
+        width: 450px;
+        float: left;
+        position: relative;
+    }
+    #title {
+        position: relative;
+        left: 650px;
+        font-size: 30px;
+    }
+    .link1 {
+        position: relative;
+        left: 1200px;
+        font-size: larger;
+        
+    }
+}
